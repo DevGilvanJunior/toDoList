@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Oswald:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
     <title>To Do List - Gilvan Junior</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="entradaTarefas">
+            <input type="text" id="textTarefas" placeholder="Digite uma nova tarefa" title="Digite uma nova tarefa para incluir na lista">
+            <button id="btnAddTarefa" title="Clique para adicionar a tarefa na lista">Adicionar</button>
+        </div>
+        <div class="listaTarefas">
+            <ul>
+                <li>
+                    <img src="/src/img/check_icon.png" title="Clique para concluir a tarefa">
+                    tarefa 1
+                    <img src="src/img/trash_icon.png" title="Clique para excluir a tarefa">
+                </li>
+                <li>
+                    <img src="/src/img/check_icon.png" title="Clique para concluir a tarefa">
+                    tarefa 2
+                    <img src="src/img/trash_icon.png" title="Clique para excluir a tarefa">
+                </li>
+                <li>
+                    <img src="/src/img/check_icon.png" title="Clique para concluir a tarefa">
+                    tarefa 3
+                    <img src="src/img/trash_icon.png" title="Clique para excluir a tarefa">
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
+
 </html>

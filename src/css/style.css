@@ -2,7 +2,88 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-image: url("/src/img/background_escritorio.jpg");
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: #d4cdcd;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.entradaTarefas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#textTarefas{
+    width: 250px;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    text-transform: capitalize;
+
+}
+
+#btnAddTarefa {
+    padding: 15px 20px;
+    color: #FFFFFF;
+    background-color: #003329;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+#btnAddTarefa:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+#btnAddTarefa:active {
+    opacity: .6;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+}
+
+li {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px 10px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+img {
+    width: 25px;
+    opacity: 0;
+    transition: opacity .7s ease-in-out;
+}
+
+li:hover img{
+    opacity: 1;
+}
 
 
