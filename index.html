@@ -17,28 +17,16 @@
     <div class="container">
         <div class="entradaTarefas">
             <input type="text" id="textTarefas" placeholder="Digite uma nova tarefa" title="Digite uma nova tarefa para incluir na lista">
-            <button id="btnAddTarefa" title="Clique para adicionar a tarefa na lista">Adicionar</button>
+            <button id="btnAddTarefa" title="Clique para adicionar a tarefa na lista" onclick="addTarefa()">Adicionar</button>
         </div>
         <div class="listaTarefas">
-            <ul>
-                <li>
-                    <img src="/src/img/check_icon.png" title="Clique para concluir a tarefa">
-                    tarefa 1
-                    <img src="src/img/trash_icon.png" title="Clique para excluir a tarefa">
-                </li>
-                <li>
-                    <img src="/src/img/check_icon.png" title="Clique para concluir a tarefa">
-                    tarefa 2
-                    <img src="src/img/trash_icon.png" title="Clique para excluir a tarefa">
-                </li>
-                <li>
-                    <img src="/src/img/check_icon.png" title="Clique para concluir a tarefa">
-                    tarefa 3
-                    <img src="src/img/trash_icon.png" title="Clique para excluir a tarefa">
-                </li>
+            <ul class="listaDeTarefas">
+                
             </ul>
         </div>
     </div>
+
+    <script src="/src/scripts/script.js"></script>
 </body>
 
 </html>

@@ -37,7 +37,11 @@ body {
     border-radius: 10px;
     font-size: 17px;
     text-transform: capitalize;
+}
 
+#textTarefas:focus{
+    border: 2px solid yellow;
+    padding: 16px 18px;
 }
 
 #btnAddTarefa {
@@ -73,17 +77,26 @@ li {
     margin-bottom: 15px;
     padding: 15px 10px;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
-    cursor: pointer;
+}
+
+.done {
+    background-color: #8fac55;
+    text-decoration: line-through;
 }
 
 img {
     width: 25px;
     opacity: 0;
     transition: opacity .7s ease-in-out;
+    cursor: pointer;
 }
 
 li:hover img{
     opacity: 1;
+}
+
+.textoTarefa {
+    text-transform: capitalize;
 }
 
 
