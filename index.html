@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="src/css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Oswald:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Oswald:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
 
     <title>To Do List - Gilvan Junior</title>
 </head>
@@ -16,13 +18,19 @@
 <body>
     <div class="container">
         <div class="entradaTarefas">
-            <input type="text" id="textTarefas" placeholder="Digite uma nova tarefa" title="Digite uma nova tarefa para incluir na lista">
-            <button id="btnAddTarefa" title="Clique para adicionar a tarefa na lista" onclick="addTarefa()">Adicionar</button>
+            <input type="text" id="textTarefas" placeholder="Digite uma nova tarefa"
+                title="Digite uma nova tarefa para incluir na lista">
+            <button id="btnAddTarefa" title="Clique para adicionar a tarefa na lista"
+                onclick="addTarefa()">Adicionar</button>
         </div>
         <div class="listaTarefas">
             <ul class="listaDeTarefas">
-                
+
             </ul>
+        </div>
+        <div class="rodape">
+            <img class="imgRodape" src="src/img/todas_tarefas_concluidas.png" title="Concluir Todas" onclick="concluirTodasTarefas()">
+            <img class="imgRodape" src="src/img/excluir_tudo.png" title="Excluir Lista Completa" onclick="excluirTodasTarefas()">
         </div>
     </div>
 
